@@ -21,6 +21,7 @@ h1 {
 
 .box{
   width: 100%;
+  padding: 15px;
   overflow: none;
 }
 
@@ -31,13 +32,13 @@ h1 {
   border: 1px solid black;
   width: 100px;
   height: 50px;
+  padding: 10px;
+  position:relative;
   float: right;
-  padding: 8px;
-  margin-right: 0px;
-  margin-top: 0px;
   font-weight: bold;
   font-size: 22px;
-
+  margin-top: 10px;
+  margin-right:-10px: 
 }
 
 .content{
@@ -70,6 +71,9 @@ h1 {
   	float: left;
     width: 33.33%;
   }
+  .food{
+     margin-right:-10px;
+  }
 
 }
 /*** Medium devices ***/
@@ -85,8 +89,12 @@ h1 {
     margin-left: -10px;
     width: 100%;
   }
+  .food{
+     margin-right:-10px;
+  }
   .food3{
-    margin-right: 0px;
+    margin-top: 21px;
+    margin-right:-20px;
   }
   
   
@@ -98,6 +106,8 @@ h1 {
     width: 100%;
   }
   .food{
-    margin-right: 0px;
+    margin-top: 18.5px;
+    margin-right:-17px;
   }
+ 
 }
